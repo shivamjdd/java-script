@@ -10,7 +10,7 @@ let valueInNumber = Number(score);
 let isLoggedIn = "Shivam"
 
 let bolleanIsLoggedIn = Boolean(isLoggedIn);
-console.log( bolleanIsLoggedIn);
+// console.log( bolleanIsLoggedIn);
 
 // 1 => true ; 0=> false
 // "" => false 
@@ -19,7 +19,32 @@ console.log( bolleanIsLoggedIn);
 
 let someNumber = 33;
 let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
+
+// **************** Operations *********************
+let value = 3 
+let negValue = -value
+// console.log(negValue);
+
+// console.log( 2%3);
+
+let str1 = "Hello"
+let str2 = " Shivam"
+let str3 = str1 + str2 
+// console.log(str1 + str2);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// let gameCounter = 100 
+// gameCounter++;
+// console.log(gameCounter);
+
+let gameCounter = 100 
+++gameCounter;
+console.log(gameCounter);
 
