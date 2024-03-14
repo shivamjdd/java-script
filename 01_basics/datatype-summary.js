@@ -3,33 +3,62 @@
 
 // 7 types : String , Number , Bollean , null , undefined , Symbol , BigInt
 
-const score = 100
-const scoreValue = 100.3
+// const score = 100
+// const scoreValue = 100.3
 
-const isLoggedIn = false 
-const outSideTemp = null
-let userEmail;
+// const isLoggedIn = false 
+// const outSideTemp = null
+// let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
-// console.log(id === anotherId);
+// // const id = Symbol('123')
+// // const anotherId = Symbol('123')
+// // // console.log(id === anotherId);
 
-const bigNumber = 525626262662626266262727n
+// // const bigNumber = 525626262662626266262727n
 
-// Reference ( Non Primitive)
+// // Reference ( Non Primitive)
 
-// Array , Objects , functions
+// // Array , Objects , functions
 
-const heros = ["shaktiman","naagraj","doga"];
+// const heros = ["shaktiman","naagraj","doga"];
 
-let myObj = {
-    name: "Shivam";
-    age: 23,
+// let myObj = {
+//     name: "Shivam";
+//     age: 23,
+// }
+
+// const function() = function() {
+//     // console.log("hello")
+// }
+
+
+// // console.log(typeof outSideTemp);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive ),  Heap Memory  (Non Primitive )
+
+// let myYoutubename ="Shivam Gupta";
+
+// let anotherName = myYoutubename;
+
+// anotherName = "HELL DELL"
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
 }
 
-const function() = function() {
-    // console.log("hello")
-}
+let userTwo = userOne
 
+userTwo.email = "shivam@google.com"
 
-console.log(typeof outSideTemp);
+console.log(userOne.email);
+console.log(userTwo.email);
+
