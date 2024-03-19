@@ -46,4 +46,34 @@ users[1].email
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('LoggedIn'));
+// console.log(tinderUser.hasOwnProperty('LoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Shivam Gupta",
+
+}
+
+// console.log(course.courseInstructor);
+const {courseInstructor: instructor} = course // isko hi bolte hy code ko desctructre krna 
+console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "react") React Dstructuring
+
+// {
+//     "name": "Shivam",
+//     "coursename": "javascript with jd",
+//     "price": "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
