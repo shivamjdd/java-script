@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shivam gupta with Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    document.querySelector('#start').addEventListener('click', function(){
+        const textChanger = document.querySelector('h1').innerHTML = "Learning of Javascript with Shivam"
+        const changeMe = setInterval(textChanger, 1000)
+    })
+
+    document.querySelector('#start').addEventListener('click', function(){
+        const textChanger = () => {  document.querySelector('h1').innerHTML = "Learning of Javascript with Shivam";
+    }; const changeMe = setInterval(textChanger, 1000);
+    })
+
+    
+</script>
+
+
+</html>
